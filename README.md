@@ -14,7 +14,7 @@ Checks both known LLM headers such as:
        - applebot
        - googlebot
 
-and also the lack of common user browser headers
+along with the lack of common user browser headers, so scrapers need to emulate a full browser(not impossible,but not trivial and takes more resources in a meaningful way)
 also checks if request rate is inhuman
 
 Uses fastapi's Requests class.
